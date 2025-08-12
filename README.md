@@ -10,10 +10,12 @@
   </a>
 </p>
 
+<!-- github-readme-stats -->
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats-tau-umber-57.vercel.app/api?username=Teruru-52&show_icons=true&theme=radical&rank_icon=percentile&count_private=true" />
 </a>
 
+<!-- github-profile-summary-cards -->
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Teruru-52&theme=gruvbox)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Teruru-52&theme=gruvbox)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Teruru-52&theme=gruvbox)

@@ -1,11 +1,14 @@
-      - name: "collect metrics images"
-        run: |
-          mkdir tmp
-          sudo cp /metrics_renders/metrics-1.svg ./tmp/
-          sudo cp /metrics_renders/metrics-2.svg ./tmp/
-          sudo chown -R "$USER:$USER" tmp
-          sudo chmod 644 tmp/*.svg
-          mv tmp/metrics-1.svg assets/
-          mv tmp/metrics-2.svg assets/
-      - name: "commit metrics updates"
-        run: bash .github/scripts/push-assets.bash
+#!/usr/bin/env bash
+
+set -uex
+set -o pipefail
+
+git config user.name 'GitHub Action'
+git config user.email 'action@github.com'
+git add assets
+# for debug
+git status
+git diff --staged --quiet assets || {
+	git commit -m 'Update metrics [skip ci]'
+	git push
+}

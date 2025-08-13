@@ -10,6 +10,8 @@
   </a>
 </p>
 
+![metrics-1](./assets/metrics-1.svg)
+
 <!-- github-readme-stats -->
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats-tau-umber-57.vercel.app/api?username=Teruru-52&show_icons=true&theme=radical&rank_icon=percentile&count_private=true" />
@@ -23,3 +25,5 @@
 ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Teruru-52&theme=gruvbox)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Teruru-52&theme=gruvbox&utcOffset=9)
 -->
+
+![metrics-2](./assets/metrics-2.svg)

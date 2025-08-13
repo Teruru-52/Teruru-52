@@ -34,6 +34,7 @@ jobs:
           config_presets: https://raw.githubusercontent.com/saitenntaisei/saitenntaisei/main/metrics-presets/preset-2.yml
       - name: "collect metrics images"
         run: |
+          rm -f assets
           sudo cp /metrics_renders/metrics-1.svg assets/
           sudo cp /metrics_renders/metrics-2.svg assets/
           sudo chown -R "$USER:$USER" assets
